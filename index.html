@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Rabbit</title>
+
+<head>
+  <h3><p>상자를 눌러보세요</p>
+  <p>마음속에 그리던 토끼가 있을 거예요.</p></h3>
+</head>
+
+<body>
+  <!------ 랜덤링크 ------------->
+
+<script >
+<!--
+
+var randomlinks=new Array()
+
+// 랜덤으로 보여줄 링크를 설정 하세요
+randomlinks[0]="rabbit_1.html"
+randomlinks[1]="rabbit_2.html"
+randomlinks[2]="rabbit_3.html"
+randomlinks[3]="rabbit_4.html"
+randomlinks[4]="rabbit_5.html"
+randomlinks[5]="rabbit_6.html"
+
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+// 프레임을 지정하려면 parent.프레임명.location=randomlinks[Math.floor(Math.random()*randomlinks.length)] 처럼 하세요
+}
+//-->
+</script>
+
+<form>
+
+<p><img src="../image/unopen_box.png" alt="box" width="300px" onclick="randomlink()"></p> </form>
+
+<!-------------------- 여기까지 ---------------------->
+</body>
+
+</html>
