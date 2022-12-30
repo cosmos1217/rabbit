@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Rabbit</title>
+
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h3><p>상자를 눌러보세요 <br>
+  마음속에 그리던 토끼가 있을 거예요.</p></h3>
+
+  <!----------- 랜덤링크 ------------->
+
+<script >
+<!--
+
+var randomlinks=new Array()
+
+// 랜덤으로 보여줄 링크를 설정 하세요
+randomlinks[0]="html/rabbit_1.html"
+randomlinks[1]="html/rabbit_2.html"
+randomlinks[2]="html/rabbit_3.html"
+randomlinks[3]="html/rabbit_4.html"
+randomlinks[4]="html/rabbit_5.html"
+randomlinks[5]="html/rabbit_6.html"
+
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+// 프레임을 지정하려면 parent.프레임명.location=randomlinks[Math.floor(Math.random()*randomlinks.length)] 처럼 하세요
+}
+//-->
+</script>
+
+<form>
+
+<p><img src="./image/unopen_box.svg" alt="box" width="300px" onclick="randomlink()"></p> </form>
+
+<!-------------------- 여기까지 ---------------------->
+</body>
+
+</html>
