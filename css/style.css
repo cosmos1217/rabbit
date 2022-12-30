@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html>
+<head>
 <meta charset="utf-8">
 <title>proto - cosmos</title>
 
 <style>
 
-h3 {
-  color: #BD87F2;
+a {
+  color: black;
+}
+
+h2 {
+  color: white;
+  border: none;
+  padding: 50px;
+  margin: 10px;
+}
+
+a {
+  color: pink;
+}
+
+img {
+  padding: 20px;
+  margin: 10px;
 }
 
 body {
-   background-color: #BD87F2;
+   background-color: black;
    text-align: center;
  }
 
 </style>
+</head>
 
 </html>
