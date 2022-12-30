@@ -30,6 +30,7 @@ img {
 body {
    background-color: black;
    text-align: center;
+   word-break: break-all;
  }
 
 @media(max-width:920px){
